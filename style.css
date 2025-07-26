@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #eef3f9;
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-bar {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  object-fit: cover;
+}
+
+.background-section {
+  background: url('department.jpg') no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.info {
+  padding: 20px;
+  background: white;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.upload-section {
+  padding: 20px;
+  background: #dbe4f0;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+input[type="file"], input[type="password"] {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #004999;
+}
+
+.files-list {
+  margin-top: 20px;
+}
+
+.file-link {
+  display: block;
+  margin: 5px 0;
+  color: #007bff;
+  text-decoration: none;
+}
